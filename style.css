@@ -17,6 +17,7 @@ header {
 	background-color: salmon;
 	margin: 50px auto;
 	text-align: center;
+	padding: 20px;
 }
 
 header #judul {
@@ -24,12 +25,11 @@ header #judul {
 }
 
 header p {
-	margin: 10px auto;
+	margin: auto;
 }
 
 header #desc {
 	font-size: 10px;
-	margin-bottom: 25px;
 }
 
 /*main*/
