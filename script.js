@@ -1,3 +1,5 @@
+alert('wow you clicked this link :D');
+alert('Thanks.. (人 ◕ω◕)');
 var tampilkanValue = document.getElementById('tombolOk');
 tampilkanValue.addEventListener('click',function(){
 	// select input element dan ambil valuenya
@@ -13,14 +15,15 @@ tampilkanValue.addEventListener('click',function(){
 	
 	const elhLi = document.createElement('li');
 	const elhSpan = document.createElement('span');
-	const elhImg = document.createElement('img');
+	var elhImg = document.createElement('img');
 	elhImg.setAttribute('src','assets/img/removeicon.png');
+	console.log(elhImg);
 	elhSpan.innerHTML = tampungInput;
 	// 3. main step
+	elhImg.setAttribute('onClick','toggleAttributeNya()');
 	elhLi.setAttribute('class','aktivitas');
 	elhLi.appendChild(elhSpan);
 	elhLi.appendChild(elhImg);
-	
 	// output kode diatas: <li class="aktivitas"><span>kegiatan</span><img src="assets/img/removeicon.png"></li>
 	// output kode diatas berupa membuat element li
 	// diatas 4. mainstep
@@ -34,8 +37,6 @@ tampilkanValue.addEventListener('click',function(){
 		elhLi.classList.toggle('aktivitasToggle');
 	});
 });
-
-
 
 // var classAktivitas = document.getElementsByClassName('aktivitas')[1];
 // classAktivitas.style.backgroundColor = 'lightpink';
