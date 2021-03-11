@@ -116,4 +116,329 @@ section ul .aktivitas img {
 	width: 26px;
 	/*background-color: red;*/
 }
+
+@media only screen and (max-width: 430px){
+	/*header*/
+	header {
+		background-color: salmon;
+		margin: 50px auto;
+		text-align: center;
+		padding: 20px;
+	}
+
+	header #judul {
+		font-size: 70px;
+	}
+
+	header p {
+		margin: auto;
+	}
+
+	header #desc {
+		font-size: 10px;
+	}
+
+	/*main*/
+	main {
+		margin: auto;
+		width: 400px;
+		display: flex;
+		flex-direction: row;
+		box-sizing: border-box;
+		/*background-color: red;*/
+		overflow: hidden;
+	}
+
+	/*main inputkegiatan*/
+	main #inputKegiatan {
+		margin: auto;
+		width: 270px;
+		padding: 10px;
+	}
+
+	/*penutup main kegiatan*/
+	/*main tombolOk*/
+	main #tombolOk {
+		margin: auto;
+		padding: 5px;
+		box-sizing: border-box;
+		width: 50px;
+		background-color: #36f585;
+		border-radius: 8px;
+	}
+
+	main #tombolOk img {
+		width: 25px;
+		margin-top: 5px;
+	}
+	/*penutup maintombolOk*/
+	/*penutup main*/
+
+	/*section kegiatan*/
+	section {
+		width: 400px;
+		margin: 20px auto;
+		/*background-color: salmon;*/
+		box-sizing: border-box;
+	}
+
+	section ul{
+		/*background-color: green;*/
+		width: 300px;
+		margin: auto;
+		margin-left: 10px;
+	}
+
+	section ul .aktivitas  {
+		background-color: orange;
+		margin: 0px;
+		margin-top: 10px;
+		padding: 10px;
+		border-radius: 8px;
+		display: flex;
+		flex-direction: row;
+		transition: .3s;
+	}
+
+	section ul .aktivitasToggle  {
+		background-color: #84ed5a;
+		margin: 0px;
+		margin-top: 10px;
+		padding: 10px;
+		border-radius: 8px;
+		display: flex;
+		flex-direction: row;
+		transition: .3s;
+	}
+
+	section ul .aktivitas span {
+		width: 300px;
+		display: block;
+		margin-left: 0px;
+		/*background-color: salmon;*/
+	}
+
+	section ul .aktivitas img {
+		margin-right: 0px;
+		width: 26px;
+		/*background-color: red;*/
+	}
+}
+
+@media only screen and (max-width: 400px){
+	/*header*/
+	header {
+		background-color: salmon;
+		margin: 50px auto;
+		text-align: center;
+		padding: 20px;
+	}
+
+	header #judul {
+		font-size: 70px;
+	}
+
+	header p {
+		margin: auto;
+	}
+
+	header #desc {
+		font-size: 10px;
+	}
+
+	/*main*/
+	main {
+		margin: auto;
+		width: 380px;
+		display: flex;
+		flex-direction: row;
+		box-sizing: border-box;
+		/*background-color: red;*/
+		overflow: hidden;
+	}
+
+	/*main inputkegiatan*/
+	main #inputKegiatan {
+		margin: auto;
+		width: 270px;
+		padding: 10px;
+	}
+
+	/*penutup main kegiatan*/
+	/*main tombolOk*/
+	main #tombolOk {
+		margin: auto;
+		padding: 5px;
+		box-sizing: border-box;
+		width: 50px;
+		background-color: #36f585;
+		border-radius: 8px;
+	}
+
+	main #tombolOk img {
+		width: 25px;
+		margin-top: 5px;
+	}
+	/*penutup maintombolOk*/
+	/*penutup main*/
+
+	/*section kegiatan*/
+	section {
+		width: 400px;
+		margin: 20px auto;
+		/*background-color: salmon;*/
+		box-sizing: border-box;
+	}
+
+	section ul{
+		/*background-color: green;*/
+		width: 300px;
+		margin: auto;
+	}
+
+	section ul .aktivitas  {
+		background-color: orange;
+		margin: 0px;
+		margin-top: 10px;
+		padding: 10px;
+		border-radius: 8px;
+		display: flex;
+		flex-direction: row;
+		transition: .3s;
+	}
+
+	section ul .aktivitasToggle  {
+		background-color: #84ed5a;
+		margin: 0px;
+		margin-top: 10px;
+		padding: 10px;
+		border-radius: 8px;
+		display: flex;
+		flex-direction: row;
+		transition: .3s;
+	}
+
+	section ul .aktivitas span {
+		width: 300px;
+		display: block;
+		margin-left: 0px;
+		/*background-color: salmon;*/
+	}
+
+	section ul .aktivitas img {
+		margin-right: 0px;
+		width: 26px;
+		/*background-color: red;*/
+	}
+}
+
+@media only screen and (max-width: 390px){
+	/*header*/
+	header {
+		background-color: salmon;
+		margin: 50px auto;
+		text-align: center;
+		padding: 20px;
+	}
+
+	header #judul {
+		font-size: 70px;
+	}
+
+	header p {
+		margin: auto;
+	}
+
+	header #desc {
+		font-size: 10px;
+	}
+
+	/*main*/
+	main {
+		margin: auto;
+		width: 340px;
+		display: flex;
+		flex-direction: row;
+		box-sizing: border-box;
+		/*background-color: red;*/
+		overflow: hidden;
+	}
+
+	/*main inputkegiatan*/
+	main #inputKegiatan {
+		margin: auto;
+		width: 220px;
+		padding: 10px;
+	}
+
+	/*penutup main kegiatan*/
+	/*main tombolOk*/
+	main #tombolOk {
+		margin: auto;
+		margin-left: 0;
+		padding: 5px;
+		box-sizing: border-box;
+		width: 40px;
+		background-color: #36f585;
+		border-radius: 8px;
+	}
+
+	main #tombolOk img {
+		width: 25px;
+		margin-top: 5px;
+	}
+	/*penutup maintombolOk*/
+	/*penutup main*/
+
+	/*section kegiatan*/
+	section {
+		width: 350px;
+		margin: 20px auto;
+		/*background-color: salmon;*/
+		box-sizing: border-box;
+	}
+
+	section ul{
+		/*background-color: green;*/
+		width: 300px;
+		margin: auto;
+	}
+
+	section ul .aktivitas  {
+		background-color: orange;
+		margin: 0px;
+		margin-top: 10px;
+		padding: 10px;
+		border-radius: 8px;
+		display: flex;
+		flex-direction: row;
+		transition: .3s;
+	}
+
+	section ul .aktivitasToggle  {
+		background-color: #84ed5a;
+		margin: 0px;
+		margin-top: 10px;
+		padding: 10px;
+		border-radius: 8px;
+		display: flex;
+		flex-direction: row;
+		transition: .3s;
+	}
+
+	section ul .aktivitas span {
+		width: 300px;
+		display: block;
+		margin-left: 0px;
+		/*background-color: salmon;*/
+	}
+
+	section ul .aktivitas img {
+		margin-right: 0px;
+		width: 26px;
+		/*background-color: red;*/
+	}
+}
+
+
 /*penutup section kegiatan*/
