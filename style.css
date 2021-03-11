@@ -99,6 +99,7 @@ section ul .aktivitasToggle  {
 	border-radius: 8px;
 	display: flex;
 	flex-direction: row;
+	transition: .3s;
 }
 
 section ul .aktivitas span {
