@@ -27,8 +27,9 @@ header p {
 	margin: 10px auto;
 }
 
-header p:target {
-	color: salmon;
+header #desc {
+	font-size: 10px;
+	margin-bottom: 25px;
 }
 
 /*main*/
