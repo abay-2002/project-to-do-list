@@ -1,5 +1,5 @@
-alert('wow you clicked this link :D');
-alert('Thanks.. (人 ◕ω◕)');
+// alert('wow you clicked this link :D');
+// alert('Thanks.. (人 ◕ω◕)');
 // input
 const tombolJudul = document.getElementById('beriJudul');
 tombolJudul.addEventListener('click',function(){

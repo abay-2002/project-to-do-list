@@ -16,7 +16,6 @@ body {
 h3 {
 	margin: auto;
 	margin-top: 50px;
-	margin-bottom: 8px;
 	font-size: 25px;
 	text-align: center;
 }
@@ -33,24 +32,29 @@ header #judul {
 	font-size: 70px;
 }
 
+header #slogan {
+	font-size: 22px;	
+}
+
+/*petunjuk*/
+header .petunjuk {
+	font-size: 12px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 header p {
 	margin: auto;
 }
 
 header #desc {
-	font-size: 14px;
+	font-size: 12px;
 }
 
 header #desc a {
-	font-size: 14px;
+	font-size: 12px;
 }
 
-/*petunjuk*/
-.petunjuk {
-	font-size: 12px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
 /*penutup petunjuk*/
 /*beri judul*/
 /*main*/
@@ -647,9 +651,50 @@ section ul .aktivitas .gambarStatusToggle{
 }
 /*penutup section kegiatan*/
 
+/*footer*/
 footer {
+	padding: 15px;
+}
+
+footer #footerDetail {
+	display: block;
+	margin: 0;
+/*	background-color: green;
+*/	text-align: center;
+	margin-top: 100px;
+}
+
+footer ul {
 	text-align: center;
 }
+
+footer ul li {
+	display: inline-block;
+}
+
+footer ul li a {
+	text-decoration: none;
+}
+
+footer ul li a img {
+	width: 11px;
+	margin-right: 2px;
+}
+
+footer ul li a span {
+	font-size: 13px;
+}
+
+footer #copyrightWrapper {
+	display: block;
+}
+
+footer #copyrightWrapper h5{
+/*	background-color: red;
+*/	text-align: center;
+	font-size: 13px;
+}
+
 
 
 /*semua code diatas diabuat oleh akbar angkasa, instagram: @angkasa_akbar github:https://github.com/abay-2002 website: akbarangkasa.com*/
