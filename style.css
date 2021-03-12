@@ -12,9 +12,18 @@
 body {
 	background-color: #3d9ce0;
 }
+
+h3 {
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 8px;
+	font-size: 25px;
+	text-align: center;
+}
+
 /*header*/
 header {
-	background-color: salmon;
+	background-color:#45de71;
 	margin: 50px auto;
 	text-align: center;
 	padding: 20px;
@@ -29,9 +38,192 @@ header p {
 }
 
 header #desc {
-	font-size: 10px;
+	font-size: 14px;
 }
 
+header #desc a {
+	font-size: 14px;
+}
+
+/*petunjuk*/
+.petunjuk {
+	font-size: 12px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+/*penutup petunjuk*/
+/*beri judul*/
+/*main*/
+#mainTemaWrapper {
+	display: block;
+}
+
+#mainTemaWrapper #temaWrapper {
+	margin: auto;
+	width: 400px;
+	display: flex;
+	flex-direction: row;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	/*background-color: red;*/	
+}
+
+/*main inputkegiatan*/
+#temaWrapper #inputTema {
+	margin: auto 10px;
+	width: 300px;
+	padding: 10px;
+}
+
+/*penutup main kegiatan*/
+/*main tombolOk*/
+#temaWrapper #beriJudul {
+	margin: auto 10px;
+	padding: 5px;
+	box-sizing: border-box;
+	width: 60px;
+	background-color: #36f585;
+	border-radius: 8px;
+}
+
+#temaWrapper #beriJudul img {
+	width: 25px;
+	margin-top: 5px;
+}
+/*penutup maintombolOk*/
+/*penutup beri judul*/
+/*responsive input kegiatan*/
+@media only screen and (max-width: 430px){
+	/*beri judul*/
+	/*main*/
+	#mainTemaWrapper {
+		display: block;
+	}
+
+	#mainTemaWrapper #temaWrapper {
+		margin: auto;
+		width: 400px;
+		display: flex;
+		flex-direction: row;
+		box-sizing: border-box;
+		/*background-color: red;*/
+		overflow: hidden;
+	}
+
+	/*main inputkegiatan*/
+	#temaWrapper #inputTema {
+		margin: auto;
+		width: 270px;
+		padding: 10px;
+	}
+
+	/*penutup main kegiatan*/
+	/*main tombolOk*/
+	#temaWrapper #beriJudul {
+		margin: auto;
+		padding: 5px;
+		box-sizing: border-box;
+		width: 50px;
+		background-color: #36f585;
+		border-radius: 8px;
+	}
+
+	#temaWrapper #beriJudul img {
+		width: 25px;
+		margin-top: 5px;
+	}
+	/*penutup maintombolOk*/
+	/*penutup beri judul*/
+}
+
+@media only screen and (max-width: 400px){
+	/*beri judul*/
+	/*main*/
+	#mainTemaWrapper {
+		display: block;
+	}
+
+	#mainTemaWrapper #temaWrapper {
+		margin: auto;
+		width: 380px;
+		display: flex;
+		flex-direction: row;
+		box-sizing: border-box;
+		/*background-color: red;*/
+		overflow: hidden;
+	}
+
+	/*main inputkegiatan*/
+	#temaWrapper #inputTema {
+		margin: auto;
+		width: 270px;
+		padding: 10px;
+	}
+
+	/*penutup main kegiatan*/
+	/*main tombolOk*/
+	#temaWrapper #beriJudul {
+		margin: auto;
+		padding: 5px;
+		box-sizing: border-box;
+		width: 50px;
+		background-color: #36f585;
+		border-radius: 8px;
+	}
+
+	#temaWrapper #beriJudul img {
+		width: 25px;
+		margin-top: 5px;
+	}
+	/*penutup maintombolOk*/
+	/*penutup beri judul*/
+}
+
+@media only screen and (max-width: 390px){
+	/*beri judul*/
+	/*main*/
+	#mainTemaWrapper {
+		display: block;
+	}
+
+	#mainTemaWrapper #temaWrapper {
+		margin: auto;
+		width: 340px;
+		display: flex;
+		flex-direction: row;
+		box-sizing: border-box;
+		/*background-color: red;*/
+		overflow: hidden;
+	}
+
+	/*main inputkegiatan*/
+	#temaWrapper #inputTema {
+		margin: auto;
+		width: 220px;
+		padding: 10px;
+	}
+
+	/*penutup main kegiatan*/
+	/*main tombolOk*/
+	#temaWrapper #beriJudul {
+		margin: auto;
+		margin-left: 0;
+		padding: 5px;
+		box-sizing: border-box;
+		width: 40px;
+		background-color: #36f585;
+		border-radius: 8px;
+	}
+
+	#temaWrapper #beriJudul img {
+		width: 25px;
+		margin-top: 5px;
+	}
+	/*penutup maintombolOk*/
+	/*penutup beri judul*/
+}
+
+/*penutup responsive kegiatan*/
 /*main*/
 main {
 	margin: auto;
@@ -67,11 +259,12 @@ main #tombolOk img {
 /*penutup maintombolOk*/
 /*penutup main*/
 
+
 /*section kegiatan*/
 section {
 	width: 400px;
 	margin: 20px auto;
-	/*background-color: salmon;*/
+	/*background-color:#45de71;*/
 	box-sizing: border-box;
 }
 
@@ -108,7 +301,7 @@ section ul .aktivitas span {
 	width: 300px;
 	display: block;
 	margin-left: 0px;
-	/*background-color: salmon;*/
+	/*background-color:#45de71;*/
 }
 
 section ul .aktivitas .gambarStatus{
@@ -133,7 +326,7 @@ section ul .aktivitas .gambarStatusToggle{
 @media only screen and (max-width: 430px){
 	/*header*/
 	header {
-		background-color: salmon;
+		background-color:#45de71;
 		margin: 50px auto;
 		text-align: center;
 		padding: 20px;
@@ -191,7 +384,7 @@ section ul .aktivitas .gambarStatusToggle{
 	section {
 		width: 400px;
 		margin: 20px auto;
-		/*background-color: salmon;*/
+		/*background-color:#45de71;*/
 		box-sizing: border-box;
 	}
 
@@ -228,7 +421,7 @@ section ul .aktivitas .gambarStatusToggle{
 		width: 300px;
 		display: block;
 		margin-left: 0px;
-		/*background-color: salmon;*/
+		/*background-color:#45de71;*/
 	}
 
 	/*section ul .aktivitas img {
@@ -241,7 +434,7 @@ section ul .aktivitas .gambarStatusToggle{
 @media only screen and (max-width: 400px){
 	/*header*/
 	header {
-		background-color: salmon;
+		background-color:#45de71;
 		margin: 50px auto;
 		text-align: center;
 		padding: 20px;
@@ -299,7 +492,7 @@ section ul .aktivitas .gambarStatusToggle{
 	section {
 		width: 400px;
 		margin: 20px auto;
-		/*background-color: salmon;*/
+		/*background-color:#45de71;*/
 		box-sizing: border-box;
 	}
 
@@ -335,7 +528,7 @@ section ul .aktivitas .gambarStatusToggle{
 		width: 300px;
 		display: block;
 		margin-left: 0px;
-		/*background-color: salmon;*/
+		/*background-color:#45de71;*/
 	}
 
 	/*section ul .aktivitas img {
@@ -348,7 +541,7 @@ section ul .aktivitas .gambarStatusToggle{
 @media only screen and (max-width: 390px){
 	/*header*/
 	header {
-		background-color: salmon;
+		background-color:#45de71;
 		margin: 50px auto;
 		text-align: center;
 		padding: 20px;
@@ -407,7 +600,7 @@ section ul .aktivitas .gambarStatusToggle{
 	section {
 		width: 350px;
 		margin: 20px auto;
-		/*background-color: salmon;*/
+		/*background-color:#45de71;*/
 		box-sizing: border-box;
 	}
 
@@ -443,7 +636,7 @@ section ul .aktivitas .gambarStatusToggle{
 		width: 300px;
 		display: block;
 		margin-left: 0px;
-		/*background-color: salmon;*/
+		/*background-color:#45de71;*/
 	}
 
 	/*section ul .aktivitas img {
@@ -452,6 +645,11 @@ section ul .aktivitas .gambarStatusToggle{
 		background-color: red;
 	}*/
 }
-
-
 /*penutup section kegiatan*/
+
+footer {
+	text-align: center;
+}
+
+
+/*semua code diatas diabuat oleh akbar angkasa, instagram: @angkasa_akbar github:https://github.com/abay-2002 website: akbarangkasa.com*/

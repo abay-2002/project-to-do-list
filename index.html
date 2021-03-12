@@ -11,16 +11,29 @@
 <body>
 	<header>
 		<p id="judul">To Do List</p>
-		<p>Biar produktif ¯\_(ツ)_/¯</p>
-		<p>by: <a href="http://akbarangkasa.com/" target="blank">abay</a> </p>
-		<p id="desc">project gabut masih dalam pengembangan blom 'terlalu' responsive etc..</p>
+		<p>Biar produktif ¯\_(ツ)_/¯</p>		
+		<p class="petunjuk">Klik item 1x untuk menandai item selesai</p>
+		<p class="petunjuk">Klik item 2x untuk menghapus item</p>
+		<p id="desc">Project gabut oleh: <a href="http://akbarangkasa.com/" target="blank">abay</a> </p>
 	</header>
 	
+	<!-- input kegiatan -->
+	<h3>Judul Kegiatanmu ( ͡~ ͜ʖ ͡°)</h3>
+	<section id="mainTemaWrapper">
+		<div id="temaWrapper">
+			<input type="text" id="inputTema" placeholder="Jadwal Liburan.." maxlength="18">
+			<button id="beriJudul"><img src="assets/img/pencil.png"></button>
+		</div>
+	</section>
+
+	<!-- input list -->
+	<h3>List kamu.. ヽ(ヅ)ノ</h3>
 	<main>
 		<input type="text" id="inputKegiatan" placeholder="Item baru.." maxlength="18">
 		<button id="tombolOk"><img src="assets/img/pencil.png"></button>
 	</main>
 
+	<!-- listnya -->
 	<div id="sectionWrapper">
 <!-- 		<section id="sectionParent">
 			<ul id="parentKegiatan">
@@ -28,6 +41,14 @@
 			</ul>
 		</section> -->
 	</div>
+<!-- 	<footer>
+		Akbar Angkasa 2021
+		<ul>
+			<li><a href=""></a></li>
+		</ul>
+	</footer> -->
 <script src="script.js"></script>
 </body>
 </html>
+
+<!-- semua code diatas diabuat oleh akbar angkasa, instagram: @angkasa_akbar github:https://github.com/abay-2002 website: akbarangkasa.com -->

@@ -1,6 +1,14 @@
 alert('wow you clicked this link :D');
 alert('Thanks.. (人 ◕ω◕)');
+// input
+const tombolJudul = document.getElementById('beriJudul');
+tombolJudul.addEventListener('click',function(){
+	const beriJudul = document.getElementById('judul');
+	const tampungTema = document.getElementById('inputTema').value;
+	beriJudul.innerHTML = tampungTema;
+})
 
+// function list
 var tampilkanValue = document.getElementById('tombolOk');
 tampilkanValue.addEventListener('click',function(){
 	// select input element dan ambil valuenya
@@ -45,8 +53,8 @@ tampilkanValue.addEventListener('click',function(){
 	elhLi.addEventListener('dblclick',function(){
 		sectionWrapper.removeChild(elhSection);
 	})
-
 });
+// penutup function list
 
 	// 1. buat elh section dan ul
 	// 2. masukan ul kedalam section
@@ -97,3 +105,4 @@ tampilkanValue.addEventListener('click',function(){
 // 1. bikin element node dengan li sebagai parentnya dan element span img sebagai childnya
 // 2. didalam node img beri attribute src=''
 // 3. didalam node span beri innerHTML yang innerHTML tersebut didapat dari inputKegiatanUser 
+// semua code diatas diabuat oleh akbar angkasa, instagram: @angkasa_akbar github:https://github.com/abay-2002 website: akbarangkasa.com
