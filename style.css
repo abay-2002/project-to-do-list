@@ -111,11 +111,24 @@ section ul .aktivitas span {
 	/*background-color: salmon;*/
 }
 
-section ul .aktivitas img {
+section ul .aktivitas .gambarStatus{
+	width: 32px;
+	background-image: url(assets/img/removeicon.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+section ul .aktivitas .gambarStatusToggle{
+	width: 32px;
+	background-image: url(assets/img/centang.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/*section ul .aktivitas img {
 	margin-right: 0px;
 	width: 26px;
-	/*background-color: red;*/
-}
+	background-color: red;
+}*/
 
 @media only screen and (max-width: 430px){
 	/*header*/
@@ -218,11 +231,11 @@ section ul .aktivitas img {
 		/*background-color: salmon;*/
 	}
 
-	section ul .aktivitas img {
+	/*section ul .aktivitas img {
 		margin-right: 0px;
 		width: 26px;
-		/*background-color: red;*/
-	}
+		background-color: red;
+	}*/
 }
 
 @media only screen and (max-width: 400px){
@@ -325,11 +338,11 @@ section ul .aktivitas img {
 		/*background-color: salmon;*/
 	}
 
-	section ul .aktivitas img {
+	/*section ul .aktivitas img {
 		margin-right: 0px;
 		width: 26px;
-		/*background-color: red;*/
-	}
+		background-color: red;
+	}*/
 }
 
 @media only screen and (max-width: 390px){
@@ -433,11 +446,11 @@ section ul .aktivitas img {
 		/*background-color: salmon;*/
 	}
 
-	section ul .aktivitas img {
+	/*section ul .aktivitas img {
 		margin-right: 0px;
 		width: 26px;
-		/*background-color: red;*/
-	}
+		background-color: red;
+	}*/
 }
 
 

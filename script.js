@@ -1,5 +1,6 @@
 alert('wow you clicked this link :D');
 alert('Thanks.. (人 ◕ω◕)');
+
 var tampilkanValue = document.getElementById('tombolOk');
 tampilkanValue.addEventListener('click',function(){
 	// select input element dan ambil valuenya
@@ -15,28 +16,57 @@ tampilkanValue.addEventListener('click',function(){
 	
 	const elhLi = document.createElement('li');
 	const elhSpan = document.createElement('span');
-	var elhImg = document.createElement('img');
-	elhImg.setAttribute('src','assets/img/removeicon.png');
-	console.log(elhImg);
+	const elhDiv = document.createElement('div');
+	elhDiv.setAttribute('class','gambarStatus');
 	elhSpan.innerHTML = tampungInput;
 	// 3. main step
-	elhImg.setAttribute('onClick','toggleAttributeNya()');
+	
 	elhLi.setAttribute('class','aktivitas');
 	elhLi.appendChild(elhSpan);
-	elhLi.appendChild(elhImg);
-	// output kode diatas: <li class="aktivitas"><span>kegiatan</span><img src="assets/img/removeicon.png"></li>
+	elhLi.appendChild(elhDiv);
+	// elhLi.appendChild(elhImg);
+	// output kode diatas: <li class="aktivitas"><span>kegiatan</span><div class="gambarStatus"></div></li>
 	// output kode diatas berupa membuat element li
 	// diatas 4. mainstep
 
 	elhUl.appendChild(elhLi); // 5. mainstep
-	// kode diatas saya memberi child li kepada parent ul
+	// output kode diatas: <ul id="parentKegiatan"><li class="aktivitas"><span>kegiatan</span><div class="gambarStatus"></div></li></ul>
+
 	const sectionWrapper = document.getElementById('sectionWrapper');
 	sectionWrapper.appendChild(elhSection); // 6. mainstep
-
+	// output kode diatas: <section id="sectionParent"><ul id="parentKegiatan"><li class="aktivitas"><span>kegiatan</span><div class="gambarStatus"></div></li></ul></section>
+	// hiasan
 	elhLi.addEventListener('click',function(){
 		elhLi.classList.toggle('aktivitasToggle');
+		elhDiv.classList.toggle('gambarStatusToggle');
 	});
+
+	// menghapus child/kegiatan
+	elhLi.addEventListener('dblclick',function(){
+		sectionWrapper.removeChild(elhSection);
+	})
+
 });
+
+	// 1. buat elh section dan ul
+	// 2. masukan ul kedalam section
+	// 3. buat elh li span, masukan span kedalam li
+	// innerHTML span didapat dari input id='inputKegiatan'
+	// 4. masukan span kedalam li
+	// 5. masukan elh li kedalam elhUl
+	// 6. gabungkan section 
+
+
+
+// function myFunction() {
+//   var x = document.getElementById("myDIV");
+//   if (x.style.display === "none") {
+//     x.style.display = "block";
+//   } else {
+//     x.style.display = "none";
+//   }
+// }
+
 
 // var classAktivitas = document.getElementsByClassName('aktivitas')[1];
 // classAktivitas.style.backgroundColor = 'lightpink';
@@ -53,13 +83,7 @@ tampilkanValue.addEventListener('click',function(){
 
 // bikin li seperti ini <li class="aktivitas"><span>kegiatan</span><img src="assets/img/centang.png"></li>
 
-	// 1. buat elh section dan ul
-	// 2. masukan ul kedalam section
-	// 3. buat elh li span, masukan span kedalam li
-	// innerHTML span didapat dari input id='inputKegiatan'
-	// 4. masukan span kedalam li
-	// 5. masukan elh li kedalam elhUl
-	// 6. gabungkan section 
+
 
 
 // elhSpan.innerHTML = tampungInput;
