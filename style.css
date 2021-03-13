@@ -18,7 +18,8 @@ h3 {
 	margin-top: 50px;
 	font-size: 25px;
 	text-align: center;
-}
+/*	background-color: salmon;
+*/}
 
 /*header*/
 header {
@@ -326,7 +327,7 @@ section ul .aktivitas .gambarStatusToggle{
 	width: 26px;
 	background-color: red;
 }*/
-
+/*respponsive input kegiatan*/
 @media only screen and (max-width: 430px){
 	/*header*/
 	header {
@@ -649,19 +650,12 @@ section ul .aktivitas .gambarStatusToggle{
 		background-color: red;
 	}*/
 }
+/*penutup responsice input kegiatan*/
 /*penutup section kegiatan*/
 
 /*footer*/
 footer {
 	padding: 15px;
-}
-
-footer #footerDetail {
-	display: block;
-	margin: 0;
-/*	background-color: green;
-*/	text-align: center;
-	margin-top: 100px;
 }
 
 footer ul {
@@ -687,14 +681,71 @@ footer ul li a span {
 
 footer #copyrightWrapper {
 	display: block;
+	margin-top: 100px;
 }
 
 footer #copyrightWrapper h5{
-/*	background-color: red;
-*/	text-align: center;
+	/*background-color: red;*/
+	text-align: center;
 	font-size: 13px;
 }
 
+footer #footerDetail {
+	display: block;
+	margin: 0;
+	/*background-color: green;*/
+	text-align: center;
+	/*margin-top: 100px;*/
+}
+/*penutup footer*/
+
+@media only screen and (max-width: 430px){
+	/*footer*/
+	footer {
+		padding: 15px;
+	}
+
+	footer ul {
+		text-align: center;
+	}
+
+	footer ul li {
+		display: inline-block;
+	}
+
+	footer ul li a {
+		text-decoration: none;
+	}
+
+	footer ul li a img {
+		width: 11px;
+		margin-right: 2px;
+	}
+
+	footer ul li a span {
+		font-size: 13px;
+		display: none;
+	}
+
+	footer #copyrightWrapper {
+		display: block;
+	}
+
+	footer #copyrightWrapper h5{
+		/*background-color: red;*/
+		text-align: center;
+		font-size: 13px;
+	}
+
+	footer #footerDetail {
+		display: block;
+		margin: 0;
+	/*	background-color: green;
+	*/	text-align: center;
+		/*margin-top: 100px;*/
+	}
+	/*penutup footer*/
+}
 
 
 /*semua code diatas diabuat oleh akbar angkasa, instagram: @angkasa_akbar github:https://github.com/abay-2002 website: akbarangkasa.com*/
