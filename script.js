@@ -24,7 +24,7 @@ tampilkanValue.addEventListener('click',function(){
 	
 	const elhLi = document.createElement('li');
 	const elhSpan = document.createElement('span');
-	const elhDiv = document.createElement('div');
+	const elhDiv = document.createElement('div');// div adalah gambar yang berada didalam list
 	elhDiv.setAttribute('class','gambarStatus');
 	elhSpan.innerHTML = tampungInput;
 	// 3. main step
