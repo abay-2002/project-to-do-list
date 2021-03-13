@@ -13,18 +13,13 @@ body {
 	background-color: #3d9ce0;
 }
 
-h3 {
-	margin: auto;
-	margin-top: 50px;
-	font-size: 25px;
-	text-align: center;
 /*	background-color: salmon;
-*/}
+*/
 
 /*header*/
 header {
 	background-color:#45de71;
-	margin: 50px auto;
+	margin: auto;
 	text-align: center;
 	padding: 20px;
 }
@@ -56,7 +51,27 @@ header #desc a {
 	font-size: 12px;
 }
 
+#warning {
+	display: block;
+	background-color: #ffcc00;
+	padding: 4px;
+}
+
+#warning p {
+	font-size: 10px;
+	text-align: center;
+}
+
 /*penutup petunjuk*/
+
+h3 {
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	font-size: 18px;
+	text-align: center;
+}
+
 /*beri judul*/
 /*main*/
 #mainTemaWrapper {
@@ -96,8 +111,7 @@ header #desc a {
 	margin-top: 5px;
 }
 /*penutup maintombolOk*/
-/*penutup beri judul*/
-/*responsive input kegiatan*/
+/*responsive input JUDUL kegiatan*/
 @media only screen and (max-width: 430px){
 	/*beri judul*/
 	/*main*/
@@ -228,7 +242,99 @@ header #desc a {
 	/*penutup beri judul*/
 }
 
-/*penutup responsive kegiatan*/
+@media only screen and (max-width: 350px){
+	/*beri judul*/
+	/*main*/
+	#mainTemaWrapper {
+		display: block;
+	}
+
+	#mainTemaWrapper #temaWrapper {
+		margin: auto;
+		width: 300px;
+		display: flex;
+		flex-direction: row;
+		box-sizing: border-box;
+		/*background-color: red;*/
+		overflow: hidden;
+	}
+
+	/*main inputkegiatan*/
+	#temaWrapper #inputTema {
+		margin: auto;
+		width: 220px;
+		padding: 10px;
+	}
+
+	/*penutup main kegiatan*/
+	/*main tombolOk*/
+	#temaWrapper #beriJudul {
+		margin: auto;
+		margin-left: 0;
+		padding: 5px;
+		box-sizing: border-box;
+		width: 40px;
+		background-color: #36f585;
+		border-radius: 8px;
+	}
+
+	#temaWrapper #beriJudul img {
+		width: 25px;
+		margin-top: 5px;
+	}
+	/*penutup maintombolOk*/
+	/*penutup beri judul*/
+}
+
+@media only screen and (max-width: 320px){
+	/*beri judul*/
+	/*main*/
+	#mainTemaWrapper {
+		display: block;
+		margin: auto;
+	}
+
+	#mainTemaWrapper #temaWrapper {
+		margin: auto;
+		width: 250px;
+		display: flex;
+		flex-direction: row;
+		box-sizing: border-box;
+		/*background-color: red;*/
+		overflow: hidden;
+	}
+
+	/*main inputkegiatan*/
+	#temaWrapper #inputTema {
+		margin: auto;
+		width: 150px;
+		padding: 10px;
+	}
+
+	/*penutup main kegiatan*/
+	/*main tombolOk*/
+	#temaWrapper #beriJudul {
+		margin: auto;
+		margin-left: 0;
+		padding: 5px;
+		box-sizing: border-box;
+		width: 40px;
+		background-color: #36f585;
+		border-radius: 8px;
+	}
+
+	#temaWrapper #beriJudul img {
+		width: 25px;
+		margin-top: 5px;
+	}
+	/*penutup maintombolOk*/
+	/*penutup beri judul*/
+}
+
+/*penutup responsive JUDUL kegiatan*/
+/*penutup beri judul*/
+
+/*input kegiatan*/
 /*main*/
 main {
 	margin: auto;
@@ -322,17 +428,13 @@ section ul .aktivitas .gambarStatusToggle{
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-/*section ul .aktivitas img {
-	margin-right: 0px;
-	width: 26px;
-	background-color: red;
-}*/
-/*respponsive input kegiatan*/
+
+/*respponsive input kegiatan dan responsive #sectionparent*/
 @media only screen and (max-width: 430px){
 	/*header*/
 	header {
 		background-color:#45de71;
-		margin: 50px auto;
+		margin: auto;
 		text-align: center;
 		padding: 20px;
 	}
@@ -440,7 +542,7 @@ section ul .aktivitas .gambarStatusToggle{
 	/*header*/
 	header {
 		background-color:#45de71;
-		margin: 50px auto;
+		margin: auto;
 		text-align: center;
 		padding: 20px;
 	}
@@ -544,16 +646,16 @@ section ul .aktivitas .gambarStatusToggle{
 }
 
 @media only screen and (max-width: 390px){
-	/*header*/
+	/*h*/
 	header {
 		background-color:#45de71;
-		margin: 50px auto;
+		margin: auto;
 		text-align: center;
 		padding: 20px;
 	}
 
 	header #judul {
-		font-size: 70px;
+		font-size: 50px;
 	}
 
 	header p {
@@ -642,6 +744,237 @@ section ul .aktivitas .gambarStatusToggle{
 		display: block;
 		margin-left: 0px;
 		/*background-color:#45de71;*/
+	}
+
+	/*section ul .aktivitas img {
+		margin-right: 0px;
+		width: 26px;
+		background-color: red;
+	}*/
+}
+
+@media only screen and (max-width: 350px){
+	/*header*/
+	header {
+		background-color:#45de71;
+		margin: auto;
+		text-align: center;
+		padding: 20px;
+	}
+
+	header #judul {
+		font-size: 50px;
+	}
+
+	header p {
+		margin: auto;
+	}
+
+	header #desc {
+		font-size: 10px;
+	}
+
+	/*main*/
+	main {
+		margin: auto;
+		width: 300px;
+		display: flex;
+		flex-direction: row;
+		box-sizing: border-box;
+		/*background-color: red;*/
+		overflow: hidden;
+	}
+
+	/*main inputkegiatan*/
+	main #inputKegiatan {
+		margin: auto;
+		width: 220px;
+		padding: 10px;
+	}
+
+	/*penutup main kegiatan*/
+	/*main tombolOk*/
+	main #tombolOk {
+		margin: auto;
+		margin-left: 0;
+		padding: 5px;
+		box-sizing: border-box;
+		width: 40px;
+		background-color: #36f585;
+		border-radius: 8px;
+	}
+
+	main #tombolOk img {
+		width: 25px;
+		margin-top: 5px;
+	}
+	/*penutup maintombolOk*/
+	/*penutup main*/
+
+	/*section kegiatan*/
+	section {
+		width: 300px;
+		margin: 20px auto;
+		/*background-color:#45de71;*/
+		box-sizing: border-box;
+	}
+
+	section ul{
+		/*background-color: green;*/
+		width: 300px;
+		margin: auto;
+	}
+
+	section ul .aktivitas  {
+		background-color: orange;
+		margin: 0px;
+		margin-top: 10px;
+		padding: 10px;
+		border-radius: 8px;
+		display: flex;
+		flex-direction: row;
+		transition: .3s;
+	}
+
+	section ul .aktivitasToggle  {
+		background-color: #84ed5a;
+		margin: 0px;
+		margin-top: 10px;
+		padding: 10px;
+		border-radius: 8px;
+		display: flex;
+		flex-direction: row;
+		transition: .3s;
+	}
+
+	section ul .aktivitas span {
+		width: 300px;
+		display: block;
+		margin-left: 0px;
+		/*background-color:#45de71;*/
+	}
+
+	/*section ul .aktivitas img {
+		margin-right: 0px;
+		width: 26px;
+		background-color: red;
+	}*/
+}
+
+@media only screen and (max-width: 320px){
+	/*header*/
+	header {
+		background-color:#45de71;
+		margin: auto;
+		text-align: center;
+		padding: 20px;
+	}
+
+	header #judul {
+		font-size: 50px;
+	}
+
+	header p {
+		margin: auto;
+	}
+
+	header #desc {
+		font-size: 10px;
+	}
+
+	/*main*/
+	main {
+		margin: auto;
+		width: 250px;
+		display: flex;
+		flex-direction: row;
+		box-sizing: border-box;
+		/*background-color: red;*/
+		overflow: hidden;
+	}
+
+	/*main inputkegiatan*/
+	main #inputKegiatan {
+		margin: auto;
+		width: 150px;
+		padding: 10px;
+	}
+
+	/*penutup main kegiatan*/
+	/*main tombolOk*/
+	main #tombolOk {
+		margin: auto;
+		margin-left: 0;
+		padding: 5px;
+		box-sizing: border-box;
+		width: 40px;
+		background-color: #36f585;
+		border-radius: 8px;
+	}
+
+	main #tombolOk img {
+		width: 25px;
+		margin-top: 5px;
+	}
+	/*penutup maintombolOk*/
+	/*penutup main*/
+
+	/*section kegiatan*/
+	section {
+		width: 250px;
+		margin: 20px auto;
+		/*background-color:#45de71;*/
+		box-sizing: border-box;
+	}
+
+	section ul{
+		/*background-color: green;*/
+		width: 250px;
+		margin: auto;
+	}
+
+	section ul .aktivitas  {
+		background-color: orange;
+		margin: 0px;
+		margin-top: 10px;
+		padding: 10px;
+		border-radius: 8px;
+		display: flex;
+		flex-direction: row;
+		transition: .3s;
+	}
+
+	section ul .aktivitasToggle  {
+		background-color: #84ed5a;
+		margin: 0px;
+		margin-top: 10px;
+		padding: 10px;
+		border-radius: 8px;
+		display: flex;
+		flex-direction: row;
+		transition: .3s;
+	}
+
+	section ul .aktivitas span {
+		width: 300px;
+		display: block;
+		margin-left: 0px;
+		/*background-color:#45de71;*/
+	}
+
+	section ul .aktivitas .gambarStatus{
+		width: 40px;
+		
+		background-image: url(assets/img/removeicon.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	section ul .aktivitas .gambarStatusToggle{
+		width: 40px;
+		background-image: url(assets/img/centang.png);
+		background-size: cover;
+		background-repeat: no-repeat;
 	}
 
 	/*section ul .aktivitas img {
@@ -746,6 +1079,5 @@ footer #footerDetail {
 	}
 	/*penutup footer*/
 }
-
 
 /*semua code diatas diabuat oleh akbar angkasa, instagram: @angkasa_akbar github:https://github.com/abay-2002 website: akbarangkasa.com*/
