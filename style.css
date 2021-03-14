@@ -54,7 +54,10 @@ header #desc a {
 #warning {
 	display: block;
 	background-color: #ffcc00;
-	padding: 4px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 6px;
+	padding-bottom: 6px;
 }
 
 #warning p {
