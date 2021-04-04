@@ -10,7 +10,8 @@
 }
 
 body {
-	background-color: #3d9ce0;
+/*	background-color: #3d9ce0;
+*/	background-color: #7289da;
 }
 
 /*	background-color: salmon;
@@ -18,7 +19,8 @@ body {
 
 /*header*/
 header {
-	background-color:#45de71;
+/*	background-color:#45de71;
+*/	background-color: #7289da;
 	margin: auto;
 	text-align: center;
 	padding: 20px;
